@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BudgetFlow</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+  <div id="app">
+    <header>
+      <h1>BudgetFlow 💰</h1>
+      <button id="logoutBtn">Logout</button>
+    </header>
+
+    <section id="authSection">
+      <h2>Login</h2>
+      <input id="email" placeholder="Email" />
+      <input id="password" type="password" placeholder="Password" />
+      <button id="loginBtn">Login</button>
+      <button id="signupBtn">Sign Up</button>
+    </section>
+
+    <section id="dashboard" class="hidden">
+      <h2>Dashboard</h2>
+
+      <div class="card">
+        <h3>Balance</h3>
+        <p id="balance">$0.00</p>
+      </div>
+
+      <div class="card">
+        <h3>Add Transaction</h3>
+        <input id="desc" placeholder="Description"/>
+        <input id="amount" type="number" placeholder="Amount"/>
+        <select id="type">
+          <option value="income">Income</option>
+          <option value="expense">Expense</option>
+        </select>
+        <button id="addTxn">Add</button>
+      </div>
+
+      <div class="card">
+        <h3>Transactions</h3>
+        <ul id="txnList"></ul>
+      </div>
+    </section>
+  </div>
+
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="app.js"></script>
+
+</body>
+</html>
