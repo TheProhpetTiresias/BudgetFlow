@@ -18,12 +18,13 @@ import {
 
 // 🔑 YOUR FIREBASE CONFIG
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_BUCKET",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyBO9tjNIlWI2szSBXVmxCrK6dBYsESN7dc",
+  authDomain: "budgetflow-335b4.firebaseapp.com",
+  projectId: "budgetflow-335b4",
+  storageBucket: "budgetflow-335b4.firebasestorage.app",
+  messagingSenderId: "376866967716",
+  appId: "1:376866967716:web:8eaae6b5385d9e5c849631",
+  measurementId: "G-HGZHD1FF9P"
 };
 
 export const app = initializeApp(firebaseConfig);
