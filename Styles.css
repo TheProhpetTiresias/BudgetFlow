@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #111827;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+.card {
+  background: #1f2937;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+input, select, button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: #22c55e;
+  color: white;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
